@@ -89,7 +89,7 @@ public class TemperatureConverter extends Application
 		textFormatterC = new TextFormatter<>(character -> 
 		{
 			/*
-			 * TODO: 8.(Going furhter) Associate a TextFormatter to textFieldF to ensure a 
+			 * TODO: 8.(Going further) Associate a TextFormatter to textFieldF to ensure a 
 			 * valid character input (e.g., 23, 23.345, -21, 3E -02).
 			 */	
 			 
@@ -105,7 +105,7 @@ public class TemperatureConverter extends Application
 		textFormatterF = new TextFormatter<>(character -> 
 		{
 			/*
-			 * TODO: 8.(Going furhter) Associate a TextFormatter to textFieldF to ensure a 
+			 * TODO: 8.(Going further) Associate a TextFormatter to textFieldF to ensure a 
 			 * valid character input (e.g., 23, 23.345, -21, 3E -02).
 			 */	
 			 
@@ -140,7 +140,7 @@ public class TemperatureConverter extends Application
 					try 
 					{
 						//We create a float from the value in the Celsius TextField
-						float valC = new Float(value);
+						float valC = Float.parseFloat(value);
 						//We calculate the value in Fahrenheit
 						float valF = valC * 1.8f + 32;
 						//We display the value in Fahrenheit in the Fahrenheit TextField

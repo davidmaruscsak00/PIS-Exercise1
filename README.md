@@ -14,7 +14,7 @@ The aim of this exercise is to create a temperature converter containing:
 >  1) *Go to File \> Import...*
 >  2) *Select Git \> Projects from Git*
 >  3) *Select Clone URI*
->  4) *Fill the URI box with `https://github.com/IntroductionProgIS/Exercise1.git` (All the other parts should be automatically filled)*
+>  4) *Fill the URI box with `https://github.com/davidmaruscsak00/PIS-Exercise1` (All the other parts should be automatically filled)*
 >  5) *Click on "Next", "Next" and "Finish"*
 
 > *To see the tasks that you need to do in a project: Go to Eclipse and select Window \> Show View \> Tasks*
@@ -31,4 +31,4 @@ The aim of this exercise is to create a temperature converter containing:
 
 6) The `buttonCloseListener` closes the window. Associate it to the "Close" button.
 7) Fill in the `buttonResetListener` in order to empty both text boxes. Associate it to the "Reset" button.
-8) (Going furhter) Associate a `TextFormatter` to `textFieldF` to ensure a valid character input (e.g., 23, 23.345, -21, 3E -02).
+8) (Going further) Associate a `TextFormatter` to `textFieldF` to ensure a valid character input (e.g., 23, 23.345, -21, 3E -02).
